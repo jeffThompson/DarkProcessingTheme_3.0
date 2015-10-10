@@ -10,10 +10,10 @@ For a Processing 2.0 theme, see [this repository](https://github.com/jeffThompso
 \- \- \-
 
 ####INSTALLATION
-**PREFERENCES.TXT**
+**PREFERENCES.TXT**  
 Replace your `preferences.txt` with mine.
 
-**LIB FOLDER**
+**LIB FOLDER**  
 Look in `~/Applications/Processing.app/Contents/Java/lib`.
 Replace the the entire folder (making a copy of the original in case you hate my changes!). This contains lots of changes, including all the button files.
 
