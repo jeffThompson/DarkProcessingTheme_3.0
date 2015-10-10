@@ -1,0 +1,160 @@
+# STATUS
+# Status messages (1 file added to sketch, errors, etc)
+status.notice.fgcolor = #000000
+status.notice.bgcolor = #cc3300
+status.error.fgcolor = #ffffff
+status.error.bgcolor = #cc3300
+#status.warning.bgcolor = #EF8115
+status.warning.bgcolor = #333333
+status.warning.fgcolor = #FFFFFF
+status.font = processing.sans,plain,13
+
+# HEADER TABS
+# Settings for the tab area at the top.
+header.text.font = processing.sans,bold,14
+header.text.selected.color = #000000
+header.text.unselected.color = #ffffff
+
+header.tab.selected.color = #888888
+header.tab.unselected.color = #333333
+header.tab.modified.color = #cc3300
+
+header.tab.arrow.color = #ffffff
+header.gradient.top = #212121
+header.gradient.bottom = #111111
+
+
+# FOOTER TABS
+footer.text.font = processing.sans,bold,12
+footer.text.selected.color = #000000
+footer.text.unselected.color = #ffffff
+footer.tab.arrow.color = #ffffff
+footer.gradient.top = #212121
+footer.gradient.bottom = #101010
+
+footer.tab.selected.color = #cc3300
+footer.tab.unselected.color = #333333
+
+footer.updates.color = #ed7f15
+
+# CONSOLE
+# The font is handled by preferences, so its size/etc are modifiable.
+console.color = #000000
+console.output.color = #cccccc
+# text color for errors printed in the console
+console.error.color = #d9211e
+
+# TOOLBAR BUTTONS
+buttons.bgcolor = #000000
+
+# for the debug and mode buttons
+#reversed.gradient.top = #10212f
+#reversed.gradient.bottom = #122637
+
+## size of divider between editing area and the console
+#divider.size = 0
+## the larger divider on windows is ugly with the little arrows
+## this makes it large enough to see (mouse changes) and use,
+## but keeps it from being annoyingly obtrusive
+#divider.size.windows = 2
+
+divider.height = 9
+divider.color = #cccccc
+divider.dot.diameter = 3
+divider.dot.color = #505050
+
+# TOOLBAR BUTTON TEXT
+toolbar.rollover.font = processing.sans,bold,14
+toolbar.rollover.color = #ffffff
+toolbar.gradient.top = #212121
+toolbar.gradient.bottom = #212121
+
+# MODE SELECTOR
+mode.title.font = processing.sans,plain,14
+mode.title.color = #ffffff
+mode.background.color = #222222
+mode.outline.color = #888888
+
+
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #ffffff
+editor.bgcolor = #333333
+
+editor.gradient.top = #101010
+editor.gradient.bottom = #000000
+
+# highlight for the current line
+editor.linehighlight.color=#555555
+editor.linehighlight=true
+
+editor.caret.color = #333300
+editor.selection.color = #eebb00
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #7e7e7e,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #999999
+
+# bracket/brace highlighting
+editor.brackethighlight = true
+editor.brackethighlight.color = #006699
+
+editor.gutter.text.font = processing.mono,bold,13
+editor.gutter.text.color = #888888
+
+# marker for breakpointed lines in left hand gutter (2 ascii characters)
+#editor.gutter.breakpoint.marker = <>
+#editor.gutter.breakpoint.marker.color = #4a545e
+
+# bgcolor for the current (highlighted) line
+editor.gutter.linehighlight.color=#333333
+
+# left- and right-hand gutter color
+editor.gutter.bgcolor = #101010
+
+# color of vertical separation line
+# space (in px) added to left and right of gutter markers
+editor.gutter.padding = 8
+
+# squiggly line underneath errors in the editor
+editor.error.underline.color = #C40E0E
+
+# squiggly line underneath warnings
+editor.warning.underline.color = #ffc30e
+
+# lines next to the scrollbar showing where errors are located
+editor.column.error.color = #9F1613
+editor.column.warning.color = #ffc30e
+
+# not in use?
+#breakpoint.bgcolor = #f0f0f0
+#currentline.bgcolor = #ffff96
+
+errors.header.font = processing.sans,plain,12
+errors.header.bgcolor = #EBEBEB
+errors.header.fgcolor = #484848
+errors.row.font = processing.sans,plain,12
+errors.row.fgcolor = #484848
+errors.row.bgcolor = #FFFFFF
+errors.selection.fgcolor = #242424
+errors.selection.bgcolor = #E5E5E5
+errors.selection.error.bgcolor = #F5E6E6
+errors.selection.warning.bgcolor = #FDF2E7
+#errors.indicator.size = 3
+errors.indicator.error.color = #9E0A0A
+errors.indicator.warning.color = #EF8115
+
+manager.tab.selected.color = #666666
+manager.tab.unselected.color = #333333
+manager.tab.text.font = processing.sans,bold,14
+manager.tab.text.selected.color = #000000
+manager.tab.text.unselected.color = #ffffff
+# orange circle for updates
+manager.tab.update.color = #ed7f15
+manager.tab.gradient.top = #555555
+manager.tab.gradient.bottom = #101010
+manager.tab.background = #555555
