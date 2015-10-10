@@ -1,7 +1,11 @@
+![screenshot](https://raw.github.com/jeffThompson/DarkProcessingTheme_3.0/master/screenshot.png)
+
 Dark Processing Theme (for 3.0)
 ===================
 
-A dark theme for the Processing IDE (a little easier on the eyes!) for Processing 3.0 - for a Processing 2.0 theme, see [this repository](https://github.com/jeffThompson/DarkProcessingTheme_2.0). For P5 1.5, see [this repository](https://github.com/jeffThompson/DarkProcessingTheme).
+A dark theme for the Processing IDE (a little easier on the eyes!) for Processing 3.0.
+
+For a Processing 2.0 theme, see [this repository](https://github.com/jeffThompson/DarkProcessingTheme_2.0), for P5 1.5, see [this repo](https://github.com/jeffThompson/DarkProcessingTheme).
 
 \- \- \-
 
