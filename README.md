@@ -19,10 +19,10 @@ Replace the files in your folder using the ones from this repository's `lib` fol
 
 ## WINDOWS INSTALLATION  
 **PREFERENCES.TXT**  
-Replace your `preferences.txt` with mine, located in '%UserProfile%\AppData\Roaming\Processing\'.
+Replace your `preferences.txt` with mine, located in `%UserProfile%\AppData\Roaming\Processing\`.
 
 **LIB FOLDER**  
-Look in '%HomeDrive%\processing64\processing-3.2.1\lib\'.  
+Look in `%HomeDrive%\processing64\processing-3.2.1\lib\`.  
 [ See Mac instructions above for what to do. ]
 
 ## LINUX  
