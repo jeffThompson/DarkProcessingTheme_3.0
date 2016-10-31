@@ -9,7 +9,7 @@ For a Processing 2.0 theme, see [this repository](https://github.com/jeffThompso
 
 \- \- \-
 
-####MAC INSTALLATION
+## MAC INSTALLATION  
 **PREFERENCES.TXT**  
 Replace your `preferences.txt` with mine.
 
@@ -17,13 +17,16 @@ Replace your `preferences.txt` with mine.
 Look in `~/Applications/Processing.app/Contents/Java/lib`.
 Replace the files in your folder using the ones from this repository's `lib` folder (making a copy of the original in case you hate my changes!). This contains lots of changes, including all the button files. *Don't copy the entire folder! Recent versions of the Processing app include files that, if removed, will break the IDE.*
 
-####WINDOWS INSTALLATION
+## WINDOWS INSTALLATION  
 **PREFERENCES.TXT**  
 Replace your `preferences.txt` with mine, located in '%UserProfile%\AppData\Roaming\Processing\'.
 
 **LIB FOLDER**  
 Look in '%HomeDrive%\processing64\processing-3.2.1\lib\'.
 [ See Mac instructions above. ]
+
+## LINUX  
+If you're on Linux, you like a challenge – I'm sure you can figure this one out 😊
 
 \- \- \-
 
