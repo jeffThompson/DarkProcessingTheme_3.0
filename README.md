@@ -15,7 +15,7 @@ Replace your `preferences.txt` with mine.
 
 **LIB FOLDER**  
 Look in `~/Applications/Processing.app/Contents/Java/lib`.
-Replace the the entire folder (making a copy of the original in case you hate my changes!). This contains lots of changes, including all the button files.
+Replace the files in your folder using the ones from this repository's `lib` folder (making a copy of the original in case you hate my changes!). This contains lots of changes, including all the button files. *Don't copy the entire folder! Recent versions of the Processing app include files that, if removed, will break the IDE.*
 
 ####WINDOWS INSTALLATION
 **PREFERENCES.TXT**  
@@ -23,7 +23,7 @@ Replace your `preferences.txt` with mine, located in '%UserProfile%\AppData\Roam
 
 **LIB FOLDER**  
 Look in '%HomeDrive%\processing64\processing-3.2.1\lib\'.
-Replace the the entire folder (making a copy of the original in case you hate my changes!). This contains lots of changes, including all the button files.
+[ See Mac instructions above. ]
 
 \- \- \-
 
