@@ -1,0 +1,213 @@
+
+# DARK THEME
+# Jeff Thompson | 2016–18 | jeffreythompson.org
+#
+# A dark theme for Processing, with annotations to make creating your
+# own themes a little easier
+
+
+# STATUS
+# messages such as "file added to sketch", errors, etc
+status.font =            processing.sans,plain,13
+
+status.error.fgcolor =   #ffffff
+status.error.bgcolor =   #777777
+
+status.warning.bgcolor = #cc9900
+status.warning.fgcolor = #FFFFFF
+
+status.notice.fgcolor =  #cc9900
+status.notice.bgcolor =  #404040
+
+status.url.fgcolor =     #cccccc
+
+
+# HEADER TABS
+# settings for the tab area at the top
+header.text.font =             processing.sans,bold,14
+
+# background behind tabs
+header.gradient.top =          #333333
+header.gradient.bottom =       #333333
+
+# actual tabs themselves
+header.tab.selected.color =    #777777
+header.text.selected.color =   #ffffff
+
+header.tab.unselected.color =  #555555
+header.text.unselected.color = #ffffff
+
+# little vertical line if a tab has been modified but not saved
+header.tab.modified.color =    #cc9900
+
+header.tab.arrow.color =       #ffffff
+
+
+# FOOTER TABS
+footer.text.font =             processing.sans,bold,12
+
+footer.text.selected.color =   #ffffff
+footer.text.unselected.color = #ffffff
+
+footer.gradient.top =          #333333
+footer.gradient.bottom =       #333333
+
+footer.tab.selected.color =    #777777
+footer.tab.unselected.color =  #555555
+
+footer.tab.arrow.color =       #ffffff
+
+footer.updates.color =         #cc9900
+
+
+# CONSOLE
+# font is handled by preferences, but size/etc are modifiable
+console.color =        #000000
+console.output.color = #cccccc
+
+# text color for errors printed in the console
+console.error.color =  #cc9900
+
+
+# TOOLBAR
+toolbar.gradient.top =    #333333
+toolbar.gradient.bottom = #333333
+
+
+# TOOLBAR BUTTONS
+# play, stop, debug, etc
+buttons.bgcolor =           #000000
+
+# for the debug and mode buttons
+#reversed.gradient.top =    #555555
+#reversed.gradient.bottom = #555555
+
+toolbar.rollover.font =     processing.sans,bold,12
+toolbar.rollover.color =    #ffffff
+
+
+# MODE SELECTOR
+# the actual mode selection button itself
+mode.title.font =       processing.sans,bold,12
+mode.title.color =      #000000
+
+# button = same color as play button
+mode.background.color = #A8ADB2
+mode.outline.color =    #A8ADB2
+
+
+# DIVIDER
+# divider between editing area and the console
+# colors are (sadly) set using image files - updated ones
+# are in the included "status" folder
+divider.height =            9
+divider.color =             #777777
+divider.dot.diameter =      3
+divider.dot.color =         #505050
+
+# the larger divider on windows is ugly with the little arrows
+# this makes it large enough to see (mouse changes) and use, 
+# but keeps it from being annoyingly obtrusive
+#divider.size =             0
+#divider.size.windows =     2
+
+
+# EDITOR MISC...
+
+# the actual code window itself (bg) and the code color (fg)
+editor.fgcolor =                    #ffffff
+editor.bgcolor =                    #333333
+
+# highlight for the current line
+editor.linehighlight.color =        #555555
+editor.linehighlight =              true
+
+editor.caret.color =                #ffffff
+editor.selection.color =            #ffcc00
+
+# background of line number column
+editor.gradient.top =               #333333
+editor.gradient.bottom =            #333333
+
+# other settings for line number column (aka the "gutter")
+editor.gutter.text.font =           processing.mono,bold,12
+editor.gutter.bgcolor =             #333333
+editor.gutter.text.color =          #cccccc
+editor.gutter.linehighlight.color = #555555
+
+# bracket/brace highlighting
+editor.brackethighlight =           true
+editor.brackethighlight.color =     #777777
+
+
+
+# ERRORS
+# left as default
+errors.header.font =               processing.sans,plain,12
+errors.header.bgcolor =            #EBEBEB
+errors.header.fgcolor =            #484848
+errors.row.font =                  processing.sans,plain,12
+errors.row.fgcolor =               #484848
+errors.row.bgcolor =               #FFFFFF
+errors.selection.fgcolor =         #242424
+errors.selection.bgcolor =         #E5E5E5
+errors.selection.error.bgcolor =   #F5E6E6
+errors.selection.warning.bgcolor = #FDF2E7
+errors.indicator.error.color =     #9E0A0A
+errors.indicator.warning.color =   #EF8115
+#errors.indicator.size =           3
+
+
+# EDITOR: OFF OR UNUSED OPTIONS
+# options that are either turned off (and left default) or don't
+# seem to be used at all in the IDE
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #7e7e7e,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #999999
+
+
+# EDITOR: OPTIONAL OPTIONS
+# these are commented out, but could be added back in if you want
+
+# textual marker for the current line in left hand gutter
+# (must be two ascii characters)
+# editor.gutter.currentline.marker = ->
+# editor.gutter.currentline.marker.color = #e27500
+
+# marker for breakpointed lines in left hand gutter (also two ascii characters)
+# editor.gutter.breakpoint.marker = <>
+# editor.gutter.breakpoint.marker.color = #4a545e
+
+# color of vertical separation line
+# gutter.linecolor = #e9e9e9
+# space (in px) added to left and right of gutter markers
+# editor.gutter.padding = 10
+
+# squiggly line underneath errors in the editor
+editor.error.underline.color = #C40E0E
+# squiggly line underneath warnings
+editor.warning.underline.color = #ffc30e
+# lines next to the scrollbar showing where errors are located
+editor.column.error.color = #9F1613
+editor.column.warning.color = #ffc30e
+
+#breakpoint.bgcolor = #f0f0f0
+#currentline.bgcolor = #ffff96
+
+manager.tab.selected.color = #e0fffd
+manager.tab.unselected.color = #2d4251
+manager.tab.text.font = processing.sans,bold,14
+manager.tab.text.selected.color = #000000
+manager.tab.text.unselected.color = #ffffff
+# orange circle for updates
+manager.tab.update.color = #ed7f15
+manager.tab.gradient.top = #132638
+manager.tab.gradient.bottom = #122535
+manager.tab.background = #132638
+
+# tree for Examples and Sketchbook windows
+tree.font = processing.sans,plain,12

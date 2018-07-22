@@ -9,24 +9,21 @@ For a Processing 2.0 theme, see [this repository](https://github.com/jeffThompso
 
 \- \- \-
 
-## MAC INSTALLATION  
-**PREFERENCES.TXT**  
-Replace your `preferences.txt` with mine.
+# CONTENTS  
 
-**LIB FOLDER**  
-Look in `~/Applications/Processing.app/Contents/Java/lib`.
-Replace the files in your folder using the ones from this repository's `lib` folder (making a copy of the original in case you hate my changes!). This contains lots of changes, including all the button files. ***Don't copy the entire folder! Recent versions of the Processing app include files that, if removed, will break the IDE.***
+* `status` folder: updated png files for the bottom bar where error messages show up, mostly to clean up the colors and get rid of the gradient. You don't have to move this folder if you don't want to.  
+* `theme.txt`: where the magic happens! Somewhat annotated to make it easier to modify yourself  
+* `README.md`: this file  
+* `screenshot.png`: a screenshot of the theme
 
-## WINDOWS INSTALLATION  
-**PREFERENCES.TXT**  
-Replace your `preferences.txt` with mine, located in `%UserProfile%\AppData\Roaming\Processing\`.
+\- \- \- 
 
-**LIB FOLDER**  
-Look in `%HomeDrive%\processing64\processing-3.2.1\lib\`.  
-[ See Mac instructions above for what to do. ]
+# INSTALLATION  
+Before installing anything, be sure to make a copy of the original in case you hate these changes or it breaks something! (If you do have issues, you can just re-install the Processing IDE again.) Just copy the files from this repo into the appropriate location.
 
-## LINUX  
-If you're on Linux, you like a challenge – I'm sure you can figure this one out 😊
+* **Mac:** `~/Applications/Processing.app/Contents/Java/lib`  
+* **Windows:** `%HomeDrive%\processing64\processing-3.2.1\lib\`  
+* **Linux:** I'm not really sure? But if you're on Linux, you like a challenge – I'm sure you can figure this one out 😊  
 
 \- \- \-
 
