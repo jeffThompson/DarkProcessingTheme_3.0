@@ -17,7 +17,7 @@ For a Processing 2.0 theme, see [this repository](https://github.com/jeffThompso
 ## INSTALLATION  
 Before installing anything, be sure to make a copy of the original in case you hate these changes or it breaks something! (If you do have issues, you can just re-install the Processing IDE again.) Just copy the files from this repo into the appropriate location.
 
-* **Mac:** `~/Applications/Processing.app/Contents/Java/lib`  
+* **Mac:** `~/Applications/Processing.app/Contents/Java/lib` (to access this location, go to the Processing app, right-click and choose `Show Package Contents` or `cd` in with the Terminal)  
 * **Windows:** `%HomeDrive%\processing64\processing-3.2.1\lib\`  
 * **Linux:** I'm not really sure? But if you're on Linux, you like a challenge – I'm sure you can figure this one out 😊  
 
