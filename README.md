@@ -7,18 +7,14 @@ A dark theme for the Processing IDE (a little easier on the eyes!) for Processin
 
 For a Processing 2.0 theme, see [this repository](https://github.com/jeffThompson/DarkProcessingTheme_2.0), for P5 1.5, see [this repo](https://github.com/jeffThompson/DarkProcessingTheme).
 
-\- \- \-
-
-# CONTENTS  
+## CONTENTS  
 
 * `status` folder: updated png files for the bottom bar where error messages show up, mostly to clean up the colors and get rid of the gradient. You don't have to move this folder if you don't want to.  
 * `theme.txt`: where the magic happens! Somewhat annotated to make it easier to modify yourself  
 * `README.md`: this file  
 * `screenshot.png`: a screenshot of the theme
 
-\- \- \- 
-
-# INSTALLATION  
+## INSTALLATION  
 Before installing anything, be sure to make a copy of the original in case you hate these changes or it breaks something! (If you do have issues, you can just re-install the Processing IDE again.) Just copy the files from this repo into the appropriate location.
 
 * **Mac:** `~/Applications/Processing.app/Contents/Java/lib`  
