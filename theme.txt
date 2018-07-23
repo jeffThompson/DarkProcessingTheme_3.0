@@ -13,10 +13,10 @@ status.font =            processing.sans,plain,13
 status.error.fgcolor =   #ffffff
 status.error.bgcolor =   #777777
 
-status.warning.bgcolor = #cc9900
+status.warning.bgcolor = #ffffff
 status.warning.fgcolor = #FFFFFF
 
-status.notice.fgcolor =  #cc9900
+status.notice.fgcolor =  #ffffff
 status.notice.bgcolor =  #404040
 
 status.url.fgcolor =     #cccccc
