@@ -19,7 +19,7 @@ Before installing anything, be sure to make a copy of the original in case you h
 
 * **Mac:** Go to the Processing app in your `Applications` folder, right click it and choose `Show Package Contents` and navigate to  `Java/lib`. Alternatively, just go to `~/Applications/Processing.app/Contents/Java/lib` from the Terminal.   
 * **Windows:** `%HomeDrive%\processing64\processing-3.2.1\lib\`  
-* **Linux:** I'm not really sure? But if you're on Linux, you like a challenge – I'm sure you can figure this one out 😊  
+* **Linux:** Go to the `lib` folder of the directory where you installed Processing, likely `~/processing-{{version-number}}`. Replace the original `footer`, `status` and `toolbar` folders with those in this repo and add the `theme.txt` folder.
 
 \- \- \-
 
