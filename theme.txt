@@ -123,7 +123,7 @@ editor.linehighlight.color =        #555555
 editor.linehighlight =              true
 
 editor.caret.color =                #ffffff
-editor.selection.color =            #ffcc00
+editor.selection.color =            #545454
 
 # background of line number column
 editor.gradient.top =               #333333
